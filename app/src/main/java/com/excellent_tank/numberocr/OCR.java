@@ -1,7 +1,5 @@
 package com.excellent_tank.numberocr;
 
-import android.content.Context;
-import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.os.Environment;
 
@@ -15,12 +13,8 @@ import java.io.File;
  */
 
 public class OCR {
-
     private TessBaseAPI mTess;
     private boolean flag;
-    private Context context;
-    private AssetManager assetManager;
-
     public OCR() {
         // TODO Auto-generated constructor stub
 
